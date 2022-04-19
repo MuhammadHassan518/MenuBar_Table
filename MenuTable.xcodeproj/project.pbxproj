@@ -13,6 +13,8 @@
 		F1079BCB27FAF31000A6B197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1079BC927FAF31000A6B197 /* Main.storyboard */; };
 		F1079BCD27FAF31600A6B197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1079BCC27FAF31600A6B197 /* Assets.xcassets */; };
 		F1079BD027FAF31600A6B197 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1079BCE27FAF31600A6B197 /* LaunchScreen.storyboard */; };
+		F1079BDD27FAF40A00A6B197 /* Table_VC_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1079BDB27FAF40A00A6B197 /* Table_VC_Cell.swift */; };
+		F1079BDE27FAF40A00A6B197 /* Table_VC_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1079BDC27FAF40A00A6B197 /* Table_VC_Cell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F1079BCC27FAF31600A6B197 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1079BCF27FAF31600A6B197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1079BD127FAF31600A6B197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1079BDB27FAF40A00A6B197 /* Table_VC_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table_VC_Cell.swift; sourceTree = "<group>"; };
+		F1079BDC27FAF40A00A6B197 /* Table_VC_Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Table_VC_Cell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				F1079BCC27FAF31600A6B197 /* Assets.xcassets */,
 				F1079BCE27FAF31600A6B197 /* LaunchScreen.storyboard */,
 				F1079BD127FAF31600A6B197 /* Info.plist */,
+				F1079BDB27FAF40A00A6B197 /* Table_VC_Cell.swift */,
+				F1079BDC27FAF40A00A6B197 /* Table_VC_Cell.xib */,
 			);
 			path = MenuTable;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1079BD027FAF31600A6B197 /* LaunchScreen.storyboard in Resources */,
+				F1079BDE27FAF40A00A6B197 /* Table_VC_Cell.xib in Resources */,
 				F1079BCD27FAF31600A6B197 /* Assets.xcassets in Resources */,
 				F1079BCB27FAF31000A6B197 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1079BC827FAF31000A6B197 /* ViewController.swift in Sources */,
+				F1079BDD27FAF40A00A6B197 /* Table_VC_Cell.swift in Sources */,
 				F1079BC427FAF31000A6B197 /* AppDelegate.swift in Sources */,
 				F1079BC627FAF31000A6B197 /* SceneDelegate.swift in Sources */,
 			);
